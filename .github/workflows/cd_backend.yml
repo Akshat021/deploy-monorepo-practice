@@ -21,7 +21,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: ./docker/Dockerfile.backend
+          file: ./docker/dockerfile.backend
           push: true
           tags: akshat021/users-app-backend-learn-cd:${{github.sha}}
       
