@@ -10,6 +10,7 @@
     "db": "*"
   },
   "scripts": {
+    "start": "bun run index.ts",
     "dev": "bun run index.ts"
   },
   "dependencies": {
